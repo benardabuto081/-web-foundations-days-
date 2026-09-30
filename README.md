@@ -1,19 +1,6 @@
 # Web Foundations Days
 
 ![status](https://img.shields.io/badge/status-in%20progress-yellow)
-![html](https://img.shields.io/badge/HTML5-foundations-E34F26?logo=html5&logoColor=white)
-![css](https://img.shields.io/badge/CSS3-foundations-1572B6?logo=css3&logoColor=white)
-![javascript](https://img.shields.io/badge/JavaScript-foundations-F7DF1E?logo=javascript&logoColor=black)
-![git](https://img.shields.io/badge/Git-version%20control-F05032?logo=git&logoColor=white)
-![github](https://img.shields.io/badge/GitHub-repository-181717?logo=github&logoColor=white)
-
-**A structured engineering workspace for building and documenting practical web-development foundations through deliberate implementation, debugging, and iteration.**
-
-> **Project Principle:** *Understand what you build. Don't just make it run.*
-
-# Web Foundations Days
-
-![status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![html](https://img.shields.io/badge/HTML5-Foundations-E34F26?logo=html5\&logoColor=white)
 ![css](https://img.shields.io/badge/CSS3-Foundations-1572B6?logo=css3\&logoColor=white)
 ![javascript](https://img.shields.io/badge/JavaScript-Foundations-F7DF1E?logo=javascript\&logoColor=black)
