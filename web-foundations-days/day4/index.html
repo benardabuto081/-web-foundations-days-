@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Character Counter and Dark Mode</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <h1>Live Character Counter</h1>
+        
+        <div class="controls">
+            <button id="theme-toggle">Dark mode</button>
+        </div>
+
+        <div class="editor-group">
+            <label for="note-text">Enter your text below:</label>
+            <textarea id="note-text" placeholder="Type something here... (Press Escape to clear)"></textarea>
+        </div>
+
+        <div class="stats">
+            <p id="char-count">0 / 200 characters</p>
+            <p id="word-count">0 words</p>
+        </div>
+
+        <button id="clear-btn">Clear</button>
+    </main>
+</body>
+</html>
