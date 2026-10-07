@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Directory</title>
+    <!-- Loads users.js with defer as required -->
+    <script src="users.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        label {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            font-size: 14px;
+        }
+        input {
+            padding: 8px;
+            font-size: 14px;
+        }
+        button {
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        #status {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+        }
+        li p {
+            margin: 4px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>User Directory</h1>
+
+    <div class="controls">
+        <button id="load-users">Load Users</button>
+        <label>
+            Filter by Name:
+            <input type="text" id="filter-input" placeholder="Type to filter...">
+        </label>
+    </div>
+
+    <p id="status"></p>
+    <ul id="users-list"></ul>
+
+</body>
+</html>
